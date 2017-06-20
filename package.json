@@ -1,0 +1,16 @@
+{
+  "name": "mi-monitor",
+  "version": "0.0.1",
+  "description": "logging temperature sensor from xiaomi device",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zynick",
+  "license": "MIT",
+  "dependencies": {
+    "miio": "^0.12.0",
+    "moment": "^2.18.1"
+  }
+}
